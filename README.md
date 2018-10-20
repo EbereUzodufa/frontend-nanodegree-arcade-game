@@ -8,8 +8,7 @@ Arcade game is a web application designed based on Object Oriented JavaScript tu
 * Aviod collusion with vehicle/enemies.
 * Control movement of player with the **Arrow keys**.
 
-[Click here to Play](https://ebereuzodufa.github.io/frontend-nanodegree-arcade-game/index.html). **Good Luck**.
+[![Click here to Play](https://ebereuzodufa.github.io/frontend-nanodegree-arcade-game/index.html)]. **Good Luck**.
 
 ##Visual Description
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SxeHV1kt7iU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[video](https://img.youtube.com/v1/SxeHV1kt7iU/0.jpg)(https://www.youtube.com/watch?v=SxeHV1kt7iU)
