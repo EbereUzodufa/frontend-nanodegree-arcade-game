@@ -1,8 +1,8 @@
-#Description
+# Description
 
 Arcade game is a web application designed based on Object Oriented JavaScript tutorial in Udacity Frontend web Nanodegree program. The game has a player trying to avoid enemies.
 
-##How to Play
+## How to Play
 
 * Cross the player to the top of the board to earn a score.
 * Aviod collusion with vehicle/enemies.
@@ -10,5 +10,6 @@ Arcade game is a web application designed based on Object Oriented JavaScript tu
 
 [Click here to Play](https://ebereuzodufa.github.io/frontend-nanodegree-arcade-game/index.html). **Good Luck**.
 
-##Visual Description
+## Visual Description
+
 [![video](https://img.youtube.com/v1/SxeHV1kt7iU/0.jpg)](https://www.youtube.com/watch?v=SxeHV1kt7iU)
