@@ -6,8 +6,9 @@ const playerInitialPosY = 380;
 const outOfBoundX = 400;
 const outOfBoundY = 380;
 const playerSpeed = 50;
-let minSpeed = 100;
-let maxSpeed = 500;
+let minSpeed = 150;
+let maxSpeed = 600;
+let playerScore = 0;
 
 var Enemy = function(x, y) {
     // Variables applied to each of our instances go here,
@@ -84,6 +85,7 @@ class Player{
         if (this.y < 0) {
             this.x = playerInitialPosX;
             this.y = playerInitialPosY;
+            score();
         }
     };
 
@@ -112,7 +114,7 @@ class Player{
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 let allEnemies = [];
-let enemyPosition = [60,100,160,220];
+let enemyPosition = [60,120,220];
 let enemy;
 
 // Place the player object in a variable called player
@@ -123,6 +125,20 @@ enemyPosition.forEach(function(yPosition) {
     //console.log(enemy);
     allEnemies.push(enemy);
 });
+
+let score = function(){
+    console.log(playerScore);
+    playerScore += 1;
+    if (playerScore === 0) {
+        console.log(playerScore);
+        $('span').addClass('hidden');
+    }
+    else{
+        console.log(playerScore);
+        document.getElementById('score').textContent = playerScore;
+        document.getElementById("score").classList.remove('hidden'); //$('span').removeClass('hidden');
+    }
+}
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.

@@ -1,3 +1,28 @@
 body {
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+	margin: 0px auto;
+}
+canvas {
+    margin: 0px auto;
+}
+
+main {
+    margin: auto;
+}
+
+img#imgPoint{
+	width: 50px;
+}
+
+span#score{
+	font-size: 1.5rem;
+}
+
+.hidden{
+	display: none;
 }
